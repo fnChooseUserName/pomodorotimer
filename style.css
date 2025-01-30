@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Karla&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:ital,wght@0,100..900;1,100..900&display=swap');
 
 body {
   overflow-x: hidden;
@@ -37,9 +38,11 @@ body {
 }
 
 #time-left {
-  font-family: "Karla", sans-serif;
+  font-family: "Chivo Mono", serif;
   font-size: 10.375rem;
-  font-weight: 800;
+  font-weight: 600;
+  font-style: normal;
+  font-optical-sizing: auto;
   text-align: center;
   margin-bottom: 1rem;
   letter-spacing: -5px;
@@ -153,9 +156,9 @@ body {
 }
 
 select {
-  // A reset of styles, including removing the default dropdown arrow
+  /* A reset of styles, including removing the default dropdown arrow */
   appearance: none;
-  // Additional resets for further consistency
+  /* Additional resets for further consistency */
   background-color: transparent;
   border: none;
   padding: 0 1em 0 0;
